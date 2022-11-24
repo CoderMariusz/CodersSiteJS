@@ -1,6 +1,7 @@
-import React from "react";
-import Hero from "../components/Hero";
-import Intro from "../components/Intro";
+import React, { lazy } from "react";
+const Hero = lazy(()=>import("./components/Hero")) ;
+const Intro = lazy(()=>import("./components/Intro")) ;
+
 
 export default function homePage() {
   return (
