@@ -6,13 +6,13 @@ const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: #effffa;
-  transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(-100%)')};
+  transform: ${({ open }) => (open ? 'translateX(100%)' : 'translateX(0%)')};
   height: 100vh;
   text-align: left;
   padding: 2rem;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100%;
   transition: transform 0.3s ease-in-out;
   z-index: 99;
 
