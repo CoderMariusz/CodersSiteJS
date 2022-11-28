@@ -1,6 +1,7 @@
 import React, { lazy } from "react";
 const Hero = lazy(()=>import("./components/Hero")) ;
 const Intro = lazy(()=>import("./components/Intro")) ;
+const Reviews = lazy(()=>import("./components/Reviews")) ;
 
 
 export default function homePage() {
@@ -8,6 +9,7 @@ export default function homePage() {
     <main>
       <Hero />
       <Intro />
+      <Reviews/>
     </main>
   );
 }

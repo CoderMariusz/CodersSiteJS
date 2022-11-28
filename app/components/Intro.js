@@ -1,14 +1,15 @@
-import Image from "next/image";
-import React, { lazy } from "react";
-import "../../styles/intro/intro.css";
-const Card = lazy(() => import("./Card"));
+import Image from 'next/image';
+import React, { lazy } from 'react';
+import '../../styles/intro/intro.css';
+
+const Card = lazy(() => import('./Card'));
 function Intro() {
   return (
     <>
       <section className="intro">
-        <section className="top">
-          <div className="line"></div>
-          <h2 className="title">
+        <section className="intro-top">
+          <div className="intro-line"></div>
+          <h2 className="intro-title">
             Build & manage distributed teams like no one else.
           </h2>
           <Image
@@ -19,7 +20,7 @@ function Intro() {
             alt="bg Pattern"
           />
         </section>
-        <section className="cards">
+        <section className="intro-cards">
           <Card
             pic="/assets/icon-man.svg"
             title="Experienced Individuals"

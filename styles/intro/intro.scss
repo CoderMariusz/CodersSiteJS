@@ -10,17 +10,17 @@
     right: -75px;
     position: absolute;
   }
-}
-.line {
-  margin-bottom: 40px;
-  width: 55px;
-  height: 3px;
-  background: $LightOrange;
-}
-.title {
-  font-size: 2rem;
-  width: 60%;
-}
-.cards {
-  margin-top: 60px;
+  .intro-line {
+    margin-bottom: 40px;
+    width: 55px;
+    height: 3px;
+    background: $LightOrange;
+  }
+  .intro-title {
+    font-size: 2rem;
+    width: 60%;
+  }
+  .intro-cards {
+    margin-top: 60px;
+  }
 }
