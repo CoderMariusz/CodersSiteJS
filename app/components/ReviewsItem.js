@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import Image from 'next/image';
 import '../../styles/reviewsItem/reviewsItem.css';
@@ -7,8 +5,6 @@ import '../../styles/reviewsItem/reviewsItem.css';
 function ReviewsItem({
   text, name, position, img,
 }) {
-  console.log(img);
-
   return (
     <div className='wrapper-reviewsItem'>
       <p>{text}</p>

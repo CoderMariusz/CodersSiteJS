@@ -1,7 +1,8 @@
-"use client";
-import React, { useState } from "react";
-import { Burger, Menu } from "./BurgerMenu";
-import "../../styles/header/header.css";
+'use client';
+
+import React, { useState } from 'react';
+import { Burger, Menu } from './BurgerMenu';
+import '../../styles/header/header.css';
 
 export default function Header() {
   const [open, setOpen] = useState(false);

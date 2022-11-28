@@ -1,10 +1,13 @@
-@import "../variables.scss";
+@import '../variables.scss';
 .wrapper-reviews {
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: $DeepJungleGreen;
   align-items: center;
+  padding-bottom: 70px;
   h2 {
+    margin-top: 100px;
     font-size: 28px;
     line-height: 30px;
     padding: 20px 40px;
@@ -15,8 +18,20 @@
   }
 }
 .bg-pattern-reviews {
-  width: 100px;
+  width: 140px;
   height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/bg-pattern-home-4-about-3.svg);
+}
+.bg-pattern-reviews-bottom {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(/assets/bg-pattern-home-5.svg);
 }
 .reviews-ItemWrapper {
   margin: 20px 20px;
