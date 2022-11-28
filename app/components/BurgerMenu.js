@@ -95,7 +95,7 @@ const Menu = ({ open }) => (
 );
 
 const Burger = ({ open, setOpen }) => (
-    <StyledBurger open={open} onClick={() => setOpen(!open)}>
+    <StyledBurger aria-labelledby='nav-button' open={open} onClick={() => setOpen(!open)}>
       <div />
       <div />
       <div />
