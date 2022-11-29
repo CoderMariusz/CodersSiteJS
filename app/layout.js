@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import '../styles/variables.css';
+
 import Header from './components/Header';
 import AnalyticsWrapper from './Analytics';
 
