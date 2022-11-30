@@ -1,0 +1,11 @@
+{
+  "babel": {
+    "presets": [
+      "react-app",
+      "@babel/react"
+    ]
+  },
+  "plugins": [
+    "jsdom-quokka-plugins"
+  ]
+}
